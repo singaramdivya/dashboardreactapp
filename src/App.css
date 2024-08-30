@@ -16,15 +16,6 @@ body {
   overflow-y: scroll;
 }
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar li {
-  margin: 15px 0;
-}
-
 .sidebar a {
   text-decoration: none;
   color: black;
@@ -35,4 +26,8 @@ body {
   padding: 20px;
   overflow-y: auto;
 }
-
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
