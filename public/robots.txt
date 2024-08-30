@@ -3,8 +3,5 @@ User-agent: *
 Disallow:
 
 
-.sidebar .dropdown li {
-    background-color: #e0e0e0;
-}
 
   
